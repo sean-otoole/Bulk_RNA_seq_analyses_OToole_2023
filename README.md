@@ -7,3 +7,17 @@ Bulk RNA-sequencing analyses for the publication entitled: [Molecularly targetab
 At the moment this README is still under construction, more details to follow.
 
 
+## Project Organization
+```
+
+┌── bulk_paired_end_mapping.py                      : from fastq to read count for paired-end samples
+|── bulk_single_end_mapping.py                      : from fastq to read count for single-end samples
+├── images/                                         : contains example images used for explanations within the README
+│   └── XXX.png
+│   └── XXX.png
+├── bulk_seq_genome_construction.py                 : constructs alternate versions of the genome accounting for reads originating from AAV sequences
+├── figure_s5.r                                     : code for displaying results for differential expression analysis 
+├── LICENSE.md                                      : license
+└── README.md                                       : project description
+
+```
